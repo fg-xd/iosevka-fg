@@ -1,34 +1,97 @@
-# Put your custom build plans here
-
-[buildPlans.IosevkaCustomSample]
-family = "Iosevka Custom Sample"
+[buildPlans.IosevkaCustom]
+family = "catsevka"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.IosevkaCustomSample.weights.Regular]
-shape = 400
-menu = 400
-css = 400
+[buildPlans.IosevkaCustom.variants.design]
+one = "no-base-long-top-serif"
+four = "open-serifless"
+seven = "straight-serifless"
+eight = "two-circles"
+zero = "diamond-reverse-slashed-cutout"
+capital-a = "round-top-serifless"
+capital-c = "unilateral-inward-serifed"
+capital-i = "serifed"
+capital-m = "slanted-sides-flat-bottom-serifless"
+capital-q = "detached-tailed"
+capital-s = "unilateral-serifed"
+capital-w = "straight-vertical-sides-serifless"
+capital-z = "curly-serifed"
+f = "flat-hook-serifless"
+i = "diagonal-tailed"
+j = "diagonal-tailed-serifless"
+l = "diagonal-tailed"
+n = "earless-rounded-straight-serifless"
+r = "earless-rounded-serifless"
+t = "diagonal-tailed-asymmetric"
+u = "toothless-rounded-serifless"
+w = "straight-vertical-sides-serifless"
+z = "curly-serifed"
+lower-pi = "diagonal-tailed"
+ascii-single-quote = "straight"
+number-sign = "slanted-open"
+decorative-angle-brackets = "short"
+lig-ltgteq = "slanted"
 
-[buildPlans.IosevkaCustomSample.weights.Bold]
+[buildPlans.IosevkaCustom.variants.italic]
+one = "no-base-long-top-serif"
+four = "open-serifless"
+seven = "straight-serifless"
+eight = "two-circles"
+zero = "diamond-reverse-slashed-cutout"
+capital-a = "round-top-serifless"
+capital-c = "unilateral-inward-serifed"
+capital-i = "serifed"
+capital-m = "slanted-sides-flat-bottom-serifless"
+capital-q = "detached-tailed"
+capital-s = "unilateral-serifed"
+capital-w = "straight-vertical-sides-serifless"
+capital-z = "curly-serifed"
+f = "flat-hook-diagonal-tailed-crossbar-at-half-ascender-height"
+i = "diagonal-tailed"
+j = "diagonal-tailed-serifless"
+l = "diagonal-tailed"
+n = "earless-rounded-straight-serifless"
+r = "earless-rounded-serifless"
+t = "diagonal-tailed-asymmetric"
+u = "toothless-rounded-serifless"
+w = "straight-vertical-sides-serifless"
+x = "semi-chancery-curly-serifless"
+z = "curly-serifed"
+number-sign = "slanted-open"
+decorative-angle-brackets = "short"
+lig-ltgteq = "slanted"
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 500
+menu = 500
+css = 500
+
+[buildPlans.IosevkaCustom.weights.Bold]
 shape = 700
 menu = 700
 css = 700
 
-[buildPlans.IosevkaCustomSample.slopes.Upright]
+[buildPlans.IosevkaCustom.weights.Heavy]
+shape = 900
+menu = 900
+css = 900
+
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaCustomSample.slopes.Italic]
+[buildPlans.IosevkaCustom.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
 css = "italic"
-
-# To enable TTC building, uncomment the following section and write your collect plans
-# [collectPlans.IosevkaCustomSample]
-# from = ["IosevkaCustomSample"]
